@@ -1,0 +1,13 @@
+1- SELECT * FROM `teachers`;
+2- SELECT `head_of_department` FROM `departments`;
+3- SELECT * FROM `students` WHERE name LIKE 'E%';
+4- SELECT * FROM `students` WHERE year(enrolment_date) = 2021;
+5- SELECT * FROM `courses` WHERE website is NULL;
+6- SELECT * FROM `teachers` WHERE phone is NOT NULL;
+7-
+8- SELECT COUNT(*) AS 'number_total' FROM `students`
+
+
+
+1- SELECT COUNT(*) FROM `courses` GROUP BY 'cfu';
+2- SELECT COUNT(*) FROM `students` GROUP BY year(date_of_birth);
